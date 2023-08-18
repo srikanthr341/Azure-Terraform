@@ -13,6 +13,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "gm_rg" {
-    name ="gm_rg"
+    name ="sa_rg"
     location = "East US"
 }
